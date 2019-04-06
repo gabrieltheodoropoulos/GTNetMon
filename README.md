@@ -1,5 +1,12 @@
 # GTNetMon
 
+![Platform](https://img.shields.io/cocoapods/p/GTNetMon.svg)
+![Language](https://img.shields.io/github/languages/top/gabrieltheodoropoulos/GTNetMon.svg?color=orange)
+![License](https://img.shields.io/cocoapods/l/GTNetMon.svg)
+![Version](https://img.shields.io/cocoapods/v/GTNetMon.svg)
+
+## About
+
 GTNetMon is a lightweight Swift library that detects whether a device is connected to Internet, it identifies the connection type (wifi, cellular, and more), and monitors for changes in the network status.
 
 ## Installation
