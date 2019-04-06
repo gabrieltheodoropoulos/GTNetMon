@@ -19,7 +19,6 @@ Pod::Spec.new do |spec|
   spec.authors             = { "Gabriel Theodoropoulos" => "gabrielth.devel@gmail.com" }
   spec.social_media_url   = "https://twitter.com/gabtheodor"
   spec.ios.deployment_target = "10.0"
-  spec.osx.deployment_target = "10.13"
   spec.source       = { :git => "https://github.com/gabrieltheodoropoulos/GTNetMon.git" }
   spec.source_files = "GTNetMon/*.{swift}"
   spec.swift_version = "4.2"
