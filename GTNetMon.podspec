@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "GTNetMon"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "A lightweight Swift library to get network status and connection information, and to monitor for network changes."
   spec.description  = <<-DESC
                     GTNetMon is a lightweight Swift library that detects whether a device is connected to Internet, it identifies the connection type (wifi, cellular, and more), and monitors for changes in the network status.
@@ -19,7 +19,7 @@ Pod::Spec.new do |spec|
   spec.authors      = { "Gabriel Theodoropoulos" => "gabrielth.devel@gmail.com" }
   spec.social_media_url   = "https://twitter.com/gabtheodor"
   spec.platform     = :ios, "10.0"
-  spec.source       = { :git => "https://github.com/gabrieltheodoropoulos/GTNetMon.git", :tag => "1.0.0" }
+  spec.source       = { :git => "https://github.com/gabrieltheodoropoulos/GTNetMon.git", :tag => "1.0.1" }
   spec.source_files = "GTNetMon/*.{swift}"
   spec.swift_version = "4.2"
 
