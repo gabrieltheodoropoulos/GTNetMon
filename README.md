@@ -2,7 +2,29 @@
 
 GTNetMon is a lightweight Swift library that detects whether a device is connected to Internet, it identifies the connection type (wifi, cellular, and more), and monitors for changes in the network status.
 
-Use `GTNetMon` class to access all available properties and methods. It is a singleton class, so use the `shared` instance to access its members.
+## Installation
+
+**Using CocoaPods**
+
+In your Podfile include:
+
+```ruby
+pod 'GTNetMon'
+```
+
+In Xcode import GTNetMon in any file you want to use it.
+
+```swift
+import GTNetMon
+```
+
+**Manually *(Not Recommended)***
+
+Download or clone the repository, and add all *swift* files from *GTNetMon* directory to your project.
+
+## Available Properties & Methods
+
+Use **`GTNetMon`** class to access all available properties and methods. It is a singleton class, so use the **`shared`** instance to access its members.
 
 Available properties are:
 
@@ -35,3 +57,7 @@ In iOS >= 12.0, the new `Network` framework of the iOS SDK is used to retrieve n
 * wiredEthernet
 * other
 * undefined
+
+## Usage Example
+
+See the simple example project in the *Sample* directory for how to use GTNetMon (*ViewController.swift* & *AppDelegate.swift* files).

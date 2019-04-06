@@ -1,21 +1,16 @@
 PODS:
-  - GTNetMon (1.0.0)
+  - GTNetMon (1.0.1)
 
 DEPENDENCIES:
-  - GTNetMon (from `https://github.com/gabrieltheodoropoulos/GTNetMon.git`)
+  - GTNetMon
 
-EXTERNAL SOURCES:
-  GTNetMon:
-    :git: https://github.com/gabrieltheodoropoulos/GTNetMon.git
-
-CHECKOUT OPTIONS:
-  GTNetMon:
-    :commit: 6161ff8ea5a5be352314f60e4e3d7b7b09cdaf5f
-    :git: https://github.com/gabrieltheodoropoulos/GTNetMon.git
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - GTNetMon
 
 SPEC CHECKSUMS:
-  GTNetMon: 311ac49a94c38f3659f749eae29014c84f4d8f6f
+  GTNetMon: 0b6d40cb1eaeb42f5d9bb56ec0dc005de2b325c6
 
-PODFILE CHECKSUM: eb0206520e4b83829e9a5198d785f6991160472a
+PODFILE CHECKSUM: 71a9db659219a5f27673c8d15119f3bda37128c7
 
 COCOAPODS: 1.6.1

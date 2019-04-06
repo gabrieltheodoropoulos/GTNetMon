@@ -6,6 +6,6 @@ target 'GTNetMonDemo' do
   use_frameworks!
 
   # Pods for GTNetMonDemo
-  pod 'GTNetMon', :git => 'https://github.com/gabrieltheodoropoulos/GTNetMon.git'
+  pod 'GTNetMon'
 
 end
