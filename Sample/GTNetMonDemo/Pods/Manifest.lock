@@ -1,0 +1,21 @@
+PODS:
+  - GTNetMon (1.0.0)
+
+DEPENDENCIES:
+  - GTNetMon (from `https://github.com/gabrieltheodoropoulos/GTNetMon.git`)
+
+EXTERNAL SOURCES:
+  GTNetMon:
+    :git: https://github.com/gabrieltheodoropoulos/GTNetMon.git
+
+CHECKOUT OPTIONS:
+  GTNetMon:
+    :commit: 6161ff8ea5a5be352314f60e4e3d7b7b09cdaf5f
+    :git: https://github.com/gabrieltheodoropoulos/GTNetMon.git
+
+SPEC CHECKSUMS:
+  GTNetMon: 311ac49a94c38f3659f749eae29014c84f4d8f6f
+
+PODFILE CHECKSUM: eb0206520e4b83829e9a5198d785f6991160472a
+
+COCOAPODS: 1.6.1

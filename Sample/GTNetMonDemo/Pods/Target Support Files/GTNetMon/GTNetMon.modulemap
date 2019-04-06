@@ -1,0 +1,6 @@
+framework module GTNetMon {
+  umbrella header "GTNetMon-umbrella.h"
+
+  export *
+  module * { export * }
+}

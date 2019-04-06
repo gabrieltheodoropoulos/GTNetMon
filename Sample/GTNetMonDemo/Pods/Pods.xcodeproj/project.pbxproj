@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09D3E5CA4E577FC36679F84AF7D897E6 /* GTNetMonNetworkBased.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823E9048033B946ED2B3C01907273534 /* GTNetMonNetworkBased.swift */; };
+		2A60C6C5ABC6745A4B31B009DF49ACB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		4166BF782B26199F3E7B7B851B7B3350 /* GTNetMon-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EE86B20AABB0083CB00580EEEAD7477C /* GTNetMon-dummy.m */; };
+		6C7629477BD057004EB0C8A485B6A396 /* GTNetMonProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3FB84E6E39D74EDAA93EFF136C2AD9 /* GTNetMonProvider.swift */; };
+		72EF6CC19B5B0B70383CF67F79448D25 /* GTNetMon-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 084BCFFBA8BEA100E35E5EF7BB6FE8B4 /* GTNetMon-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8570469976D50818E5ECBB83E9C7EC05 /* GTNetMon.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4556CA8301495D76440F438B173FB94 /* GTNetMon.swift */; };
+		9585B8C71A191A2EA60AA35E50B9CE27 /* Pods-GTNetMonDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E2503B8ECC4F6370002BCF7F4403D17 /* Pods-GTNetMonDemo-dummy.m */; };
+		B347A56F45FC8DD6839E4A0089C4BEB3 /* GTNetMonReachabilityBased.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB71C14D5CD0E350DE95F50C08750C0 /* GTNetMonReachabilityBased.swift */; };
+		C767F6B7B27A09AE4739CCF7924E6A90 /* Pods-GTNetMonDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 165968907884B06CEFA7D8B7CBCAD955 /* Pods-GTNetMonDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA9DE99D5B0DBC761D8C6C5FCB3E06CC /* GTCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1D3D4BF5C3D49F932287A3D42D3D4E /* GTCommon.swift */; };
+		E64048AD8A96441B1A7C0606B64FCD60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79744644CB2FCBC538AAFD9FD06B2835 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CCACF68BAD82736A38F2C35BF2A10BC;
+			remoteInfo = GTNetMon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		084BCFFBA8BEA100E35E5EF7BB6FE8B4 /* GTNetMon-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTNetMon-umbrella.h"; sourceTree = "<group>"; };
+		1097CCD013822573B07A028D1FFAA22F /* Pods-GTNetMonDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GTNetMonDemo-frameworks.sh"; sourceTree = "<group>"; };
+		165968907884B06CEFA7D8B7CBCAD955 /* Pods-GTNetMonDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GTNetMonDemo-umbrella.h"; sourceTree = "<group>"; };
+		1D3E0CA6483B1E9CD0FF7D3D9C475E84 /* Pods-GTNetMonDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GTNetMonDemo-Info.plist"; sourceTree = "<group>"; };
+		255474CC3B8440CDEBA1751F408636ED /* Pods-GTNetMonDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GTNetMonDemo.modulemap"; sourceTree = "<group>"; };
+		2E71E9148E8DAB91C71B58B2C4DD877B /* GTNetMon.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GTNetMon.modulemap; sourceTree = "<group>"; };
+		4311D57DC08BF2B29A3A963539A4B152 /* GTNetMon-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTNetMon-prefix.pch"; sourceTree = "<group>"; };
+		5905EB2CA370AAB59D745ADB5A9B8B25 /* Pods_GTNetMonDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GTNetMonDemo.framework; path = "Pods-GTNetMonDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E3FB84E6E39D74EDAA93EFF136C2AD9 /* GTNetMonProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GTNetMonProvider.swift; path = GTNetMon/GTNetMonProvider.swift; sourceTree = "<group>"; };
+		66E3B09233035D24A1B6609DE8ED6D1F /* Pods-GTNetMonDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GTNetMonDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7CB71C14D5CD0E350DE95F50C08750C0 /* GTNetMonReachabilityBased.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GTNetMonReachabilityBased.swift; path = GTNetMon/GTNetMonReachabilityBased.swift; sourceTree = "<group>"; };
+		823E9048033B946ED2B3C01907273534 /* GTNetMonNetworkBased.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GTNetMonNetworkBased.swift; path = GTNetMon/GTNetMonNetworkBased.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E2503B8ECC4F6370002BCF7F4403D17 /* Pods-GTNetMonDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GTNetMonDemo-dummy.m"; sourceTree = "<group>"; };
+		A38522C628EC82EEE5485A8F2E6ABA36 /* Pods-GTNetMonDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GTNetMonDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		A99F562477454529E8B23220615EFF2B /* GTNetMon.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GTNetMon.xcconfig; sourceTree = "<group>"; };
+		ADA5BB0714EC21AD6368926A67936BAC /* Pods-GTNetMonDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GTNetMonDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		B292A581C4479A8DBD4EEA140992F15A /* GTNetMon-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GTNetMon-Info.plist"; sourceTree = "<group>"; };
+		B7FA7ED980F9C19F930D2D6E6872D54C /* Pods-GTNetMonDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GTNetMonDemo.release.xcconfig"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D4556CA8301495D76440F438B173FB94 /* GTNetMon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GTNetMon.swift; path = GTNetMon/GTNetMon.swift; sourceTree = "<group>"; };
+		DF1D3D4BF5C3D49F932287A3D42D3D4E /* GTCommon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GTCommon.swift; path = GTNetMon/GTCommon.swift; sourceTree = "<group>"; };
+		DFA0B234F0EEF36B718F08F1FC44FD73 /* GTNetMon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GTNetMon.framework; path = GTNetMon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE86B20AABB0083CB00580EEEAD7477C /* GTNetMon-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GTNetMon-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3891D04AF11479392AACADB3762F1D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A60C6C5ABC6745A4B31B009DF49ACB8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBBD7CFB50CD83409CEFAAD1FC03896A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E64048AD8A96441B1A7C0606B64FCD60 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08968481ED751E3FCBADA21B6762471C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E610C5181EF61B127515BE382C7E7BCF /* GTNetMon */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		302AE1247D4C933D63E9EB163DAEFE14 /* Pods-GTNetMonDemo */ = {
+			isa = PBXGroup;
+			children = (
+				255474CC3B8440CDEBA1751F408636ED /* Pods-GTNetMonDemo.modulemap */,
+				66E3B09233035D24A1B6609DE8ED6D1F /* Pods-GTNetMonDemo-acknowledgements.markdown */,
+				ADA5BB0714EC21AD6368926A67936BAC /* Pods-GTNetMonDemo-acknowledgements.plist */,
+				9E2503B8ECC4F6370002BCF7F4403D17 /* Pods-GTNetMonDemo-dummy.m */,
+				1097CCD013822573B07A028D1FFAA22F /* Pods-GTNetMonDemo-frameworks.sh */,
+				1D3E0CA6483B1E9CD0FF7D3D9C475E84 /* Pods-GTNetMonDemo-Info.plist */,
+				165968907884B06CEFA7D8B7CBCAD955 /* Pods-GTNetMonDemo-umbrella.h */,
+				A38522C628EC82EEE5485A8F2E6ABA36 /* Pods-GTNetMonDemo.debug.xcconfig */,
+				B7FA7ED980F9C19F930D2D6E6872D54C /* Pods-GTNetMonDemo.release.xcconfig */,
+			);
+			name = "Pods-GTNetMonDemo";
+			path = "Target Support Files/Pods-GTNetMonDemo";
+			sourceTree = "<group>";
+		};
+		3146A45D5465247FB6586DA0472239F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFA0B234F0EEF36B718F08F1FC44FD73 /* GTNetMon.framework */,
+				5905EB2CA370AAB59D745ADB5A9B8B25 /* Pods_GTNetMonDemo.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		642FC860DA8C486ABB489D1EB17037FD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E71E9148E8DAB91C71B58B2C4DD877B /* GTNetMon.modulemap */,
+				A99F562477454529E8B23220615EFF2B /* GTNetMon.xcconfig */,
+				EE86B20AABB0083CB00580EEEAD7477C /* GTNetMon-dummy.m */,
+				B292A581C4479A8DBD4EEA140992F15A /* GTNetMon-Info.plist */,
+				4311D57DC08BF2B29A3A963539A4B152 /* GTNetMon-prefix.pch */,
+				084BCFFBA8BEA100E35E5EF7BB6FE8B4 /* GTNetMon-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GTNetMon";
+			sourceTree = "<group>";
+		};
+		908FBFCB3EC4C5E732C39556EE89C67E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				302AE1247D4C933D63E9EB163DAEFE14 /* Pods-GTNetMonDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				08968481ED751E3FCBADA21B6762471C /* Pods */,
+				3146A45D5465247FB6586DA0472239F8 /* Products */,
+				908FBFCB3EC4C5E732C39556EE89C67E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E610C5181EF61B127515BE382C7E7BCF /* GTNetMon */ = {
+			isa = PBXGroup;
+			children = (
+				DF1D3D4BF5C3D49F932287A3D42D3D4E /* GTCommon.swift */,
+				D4556CA8301495D76440F438B173FB94 /* GTNetMon.swift */,
+				823E9048033B946ED2B3C01907273534 /* GTNetMonNetworkBased.swift */,
+				5E3FB84E6E39D74EDAA93EFF136C2AD9 /* GTNetMonProvider.swift */,
+				7CB71C14D5CD0E350DE95F50C08750C0 /* GTNetMonReachabilityBased.swift */,
+				642FC860DA8C486ABB489D1EB17037FD /* Support Files */,
+			);
+			name = GTNetMon;
+			path = GTNetMon;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3E1CDA220264B4654EA5BADA833507F9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72EF6CC19B5B0B70383CF67F79448D25 /* GTNetMon-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF66FBB22DCD52D8B123D395B66655E2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C767F6B7B27A09AE4739CCF7924E6A90 /* Pods-GTNetMonDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		14EEAF07480835154A5F5F699813B39D /* Pods-GTNetMonDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09F8DB805CCE641C637B7D798C9E9B21 /* Build configuration list for PBXNativeTarget "Pods-GTNetMonDemo" */;
+			buildPhases = (
+				FF66FBB22DCD52D8B123D395B66655E2 /* Headers */,
+				05A06DB1951801FA8938BF81FB9BFACB /* Sources */,
+				B3891D04AF11479392AACADB3762F1D4 /* Frameworks */,
+				7E4F32CC45E14A272329FA0D78087E72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E197980A9B4348592E8FEAF36B948F47 /* PBXTargetDependency */,
+			);
+			name = "Pods-GTNetMonDemo";
+			productName = "Pods-GTNetMonDemo";
+			productReference = 5905EB2CA370AAB59D745ADB5A9B8B25 /* Pods_GTNetMonDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1CCACF68BAD82736A38F2C35BF2A10BC /* GTNetMon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9F766DD3995D8C0DBC2990DCAB1E27E /* Build configuration list for PBXNativeTarget "GTNetMon" */;
+			buildPhases = (
+				3E1CDA220264B4654EA5BADA833507F9 /* Headers */,
+				BF8420206CA935A9753B4F8B49C3593E /* Sources */,
+				BBBD7CFB50CD83409CEFAAD1FC03896A /* Frameworks */,
+				0F497C784195523BC400CFF75A71734D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GTNetMon;
+			productName = GTNetMon;
+			productReference = DFA0B234F0EEF36B718F08F1FC44FD73 /* GTNetMon.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 3146A45D5465247FB6586DA0472239F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1CCACF68BAD82736A38F2C35BF2A10BC /* GTNetMon */,
+				14EEAF07480835154A5F5F699813B39D /* Pods-GTNetMonDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F497C784195523BC400CFF75A71734D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E4F32CC45E14A272329FA0D78087E72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05A06DB1951801FA8938BF81FB9BFACB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9585B8C71A191A2EA60AA35E50B9CE27 /* Pods-GTNetMonDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF8420206CA935A9753B4F8B49C3593E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA9DE99D5B0DBC761D8C6C5FCB3E06CC /* GTCommon.swift in Sources */,
+				4166BF782B26199F3E7B7B851B7B3350 /* GTNetMon-dummy.m in Sources */,
+				8570469976D50818E5ECBB83E9C7EC05 /* GTNetMon.swift in Sources */,
+				09D3E5CA4E577FC36679F84AF7D897E6 /* GTNetMonNetworkBased.swift in Sources */,
+				6C7629477BD057004EB0C8A485B6A396 /* GTNetMonProvider.swift in Sources */,
+				B347A56F45FC8DD6839E4A0089C4BEB3 /* GTNetMonReachabilityBased.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E197980A9B4348592E8FEAF36B948F47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GTNetMon;
+			target = 1CCACF68BAD82736A38F2C35BF2A10BC /* GTNetMon */;
+			targetProxy = 79744644CB2FCBC538AAFD9FD06B2835 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D2F50F92A2A67E02CA60EBFDE4B97CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A38522C628EC82EEE5485A8F2E6ABA36 /* Pods-GTNetMonDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GTNetMonDemo/Pods-GTNetMonDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GTNetMonDemo/Pods-GTNetMonDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3048B0C5C704DFFF688DA57F5380ED58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		5B0C8287D755FD95091CF35D87FB8B2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AF2ACFFD3CDF1C459674FBE565CB8224 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7FA7ED980F9C19F930D2D6E6872D54C /* Pods-GTNetMonDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GTNetMonDemo/Pods-GTNetMonDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GTNetMonDemo/Pods-GTNetMonDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C075B564BFCB5E34AAF91B308B9544EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A99F562477454529E8B23220615EFF2B /* GTNetMon.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GTNetMon/GTNetMon-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GTNetMon/GTNetMon-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/GTNetMon/GTNetMon.modulemap";
+				PRODUCT_MODULE_NAME = GTNetMon;
+				PRODUCT_NAME = GTNetMon;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EC50045FCD53927714E082D6F67B916D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A99F562477454529E8B23220615EFF2B /* GTNetMon.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GTNetMon/GTNetMon-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GTNetMon/GTNetMon-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/GTNetMon/GTNetMon.modulemap";
+				PRODUCT_MODULE_NAME = GTNetMon;
+				PRODUCT_NAME = GTNetMon;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09F8DB805CCE641C637B7D798C9E9B21 /* Build configuration list for PBXNativeTarget "Pods-GTNetMonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D2F50F92A2A67E02CA60EBFDE4B97CA /* Debug */,
+				AF2ACFFD3CDF1C459674FBE565CB8224 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B0C8287D755FD95091CF35D87FB8B2D /* Debug */,
+				3048B0C5C704DFFF688DA57F5380ED58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9F766DD3995D8C0DBC2990DCAB1E27E /* Build configuration list for PBXNativeTarget "GTNetMon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC50045FCD53927714E082D6F67B916D /* Debug */,
+				C075B564BFCB5E34AAF91B308B9544EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
