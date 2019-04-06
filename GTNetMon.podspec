@@ -18,7 +18,7 @@ Pod::Spec.new do |spec|
   spec.license      = { :type => "MIT", :file => "LICENSE" }
   spec.authors      = { "Gabriel Theodoropoulos" => "gabrielth.devel@gmail.com" }
   spec.social_media_url   = "https://twitter.com/gabtheodor"
-  spec.platform     = :ios, "12.0"
+  spec.platform     = :ios, "10.0"
   spec.source       = { :git => "https://github.com/gabrieltheodoropoulos/GTNetMon.git" }
   spec.source_files = "GTNetMon/*.{swift}"
   spec.swift_version = "4.2"
