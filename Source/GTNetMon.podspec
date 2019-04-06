@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
                     GTNetMon is a lightweight Swift library that detects whether a device is connected to Internet, it identifies the connection type (wifi, cellular, and more), and monitors for changes in the network status.
                    DESC
   spec.homepage     = "https://github.com/gabrieltheodoropoulos/GTNetMon.git"
-  spec.license      = { :type => "MIT", :file => "../LICENSE" }
+  spec.license      = { :type => "MIT", :file => "LICENSE" }
   spec.authors             = { "Gabriel Theodoropoulos" => "gabrielth.devel@gmail.com" }
   spec.social_media_url   = "https://twitter.com/gabtheodor"
   spec.ios.deployment_target = "10.0"
