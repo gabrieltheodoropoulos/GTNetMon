@@ -16,10 +16,10 @@ Pod::Spec.new do |spec|
                    DESC
   spec.homepage     = "https://github.com/gabrieltheodoropoulos/GTNetMon.git"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
-  spec.authors             = { "Gabriel Theodoropoulos" => "gabrielth.devel@gmail.com" }
+  spec.authors      = { "Gabriel Theodoropoulos" => "gabrielth.devel@gmail.com" }
   spec.social_media_url   = "https://twitter.com/gabtheodor"
-  spec.ios.deployment_target = "10.0"
-  spec.source       = { :git => "https://github.com/gabrieltheodoropoulos/GTNetMon.git", :tag => "1.0.0" }
+  spec.platform     = :ios, "12.0"
+  spec.source       = { :git => "https://github.com/gabrieltheodoropoulos/GTNetMon.git" }
   spec.source_files = "GTNetMon/*.{swift}"
   spec.swift_version = "4.2"
 
